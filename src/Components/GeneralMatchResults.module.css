@@ -22,3 +22,8 @@
     width: 100px;
     height: 100px;
 }
+
+.generalMatchesScrollContent{
+    overflow: auto;
+    height: 900px
+}
