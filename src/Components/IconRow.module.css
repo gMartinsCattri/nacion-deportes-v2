@@ -1,0 +1,15 @@
+.containerIconRow{
+    display: flex;
+    justify-content: space-around;
+    margin: 140px 0px 180px 0px;
+}
+
+.IconRowImages{
+    width: 250px;
+    height: 250px;
+}
+
+.containerIconRow button{
+    background-color: transparent;
+    border: none;
+}

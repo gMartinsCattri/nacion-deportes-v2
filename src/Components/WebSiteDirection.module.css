@@ -1,0 +1,10 @@
+.containerWebSiteDirection{
+    display: flex;
+    justify-content: center;
+}
+
+.paragraphWebSiteDirection{
+    color: white;
+    font-size: 130px;
+    margin: 30px;
+}

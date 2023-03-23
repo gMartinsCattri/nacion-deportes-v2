@@ -1,0 +1,42 @@
+.containerGeneralNews{
+display: flex;
+justify-content: center;
+}
+
+.containerContentNews{
+    width: 2068px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    border-radius: 140px;
+
+}
+
+.ImageNews{
+    background-color: red;
+    width: 550px;
+    height: 500px;
+    border-radius: 120px;
+    margin-left: 60px;
+}
+
+.TextContentContainerNews{
+    width: 70%;
+    margin-left: 60px;
+}
+
+.TextContentTitleNews{
+    font-size: 130px;
+    margin: 0;
+}
+
+.TextContentParagraphNews{
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+.lineaTitleNews{
+    border-color: black;
+}
