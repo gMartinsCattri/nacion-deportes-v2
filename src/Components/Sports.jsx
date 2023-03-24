@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from "./Header";
 import IconRow from "./IconRow.jsx";
-import FutbolData from './FutbolData';
+import FutbolData from './Futbol&BacketballData';
 
 function Sports() {
 

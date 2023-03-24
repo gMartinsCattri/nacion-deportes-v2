@@ -5,7 +5,7 @@ import GeneralMatchResults from "./GeneralMatchResults";
 import VideoContainer from "./VideoContainer";
 import News from "./News";
 import WebSiteDirection from "./WebSiteDirection";
-import SportsData from './FutbolData';
+import SportsData from './Futbol&BacketballData';
 
 function MainPage() {
 

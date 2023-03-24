@@ -10,7 +10,6 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/soccer" element={<Sports />} />
-          <Route path="/soccer" element={<Sports />} />
         </Routes>
       </Router>
     </div>
