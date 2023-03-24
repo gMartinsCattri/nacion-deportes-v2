@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from "./Header";
 import IconRow from "./IconRow.jsx";
-import SportsData from './SportsData';
+import FutbolData from './FutbolData';
 
 function Sports() {
 
@@ -16,7 +16,7 @@ function Sports() {
     <div>
       <Header />
       <IconRow deporte={deporte} switchBetweenSports={switchBetweenSports}  />
-      <SportsData deporte={deporte}/>
+      <FutbolData deporte={deporte}/>
     </div>
   );
 }

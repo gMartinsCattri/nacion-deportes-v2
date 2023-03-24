@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import styles from "./SportData.module.css";
+import styles from "./FutbolData.module.css";
 
 function SportsData({ deporte }) {
   const [data, setData] = useState([]);

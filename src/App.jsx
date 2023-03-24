@@ -9,7 +9,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<MainPage />} />
-          <Route path="/sports" element={<Sports />} />
+          <Route path="/soccer" element={<Sports />} />
+          <Route path="/soccer" element={<Sports />} />
         </Routes>
       </Router>
     </div>
