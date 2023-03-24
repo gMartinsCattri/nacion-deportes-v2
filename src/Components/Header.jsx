@@ -5,7 +5,7 @@ import style from './Header.module.css'
 function Header({backToMainPage}) {
   return (
     <div className={style.imageNacionDeportesContainer}>
-       <button onClick={()=> backToMainPage(null)} > <img className={style.imageNacionDeportes} src={ndImg} alt="" /></button>
+       <button className={style.buttonHeader} onClick={()=> backToMainPage(null)} > <img className={style.imageNacionDeportes} src={ndImg} alt="" /></button>
     </div>
   )
 }
