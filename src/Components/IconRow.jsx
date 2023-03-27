@@ -21,7 +21,6 @@ function IconRow({deporte, switchBetweenSports}) {
           <img className={style.IconRowImages} src="https://alfred.to/media/cc_uat/app_deportes/iconos_navegacion_basketball.png" alt="" />
         </button> 
       </div>
-     
     </div>
   );
 }
