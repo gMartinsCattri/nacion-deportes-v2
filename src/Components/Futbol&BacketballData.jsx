@@ -43,16 +43,20 @@ function SportsData({ deporte }) {
                           className={styles.pointsGeneralTableContainer}
                           key={tableItem.id}
                         >
+                          <div>
                           <img
                             className={styles.ImageIcon}
                             src={tableItem.teamIcon}
                             alt=""
                           />{" "}
+                          </div>
+                          <div>
                           <div className={styles.pointsGeneralTable}>
                             <p className={styles.pointsGeneralTableParagraph}>{tableItem.pointOne} </p> <p className={styles.pointsGeneralTableParagraph}>{tableItem.pointTwo}</p>{" "}
                             <p className={styles.pointsGeneralTableParagraph}>{tableItem.pointThree}</p>
                           </div>{" "}
-                          {tableItem.totalPoints}
+                          </div>
+                         <div className={styles.totalPointsGeneralTable}> {tableItem.totalPoints}</div>
                         </div>
                       </li>
                     ))}

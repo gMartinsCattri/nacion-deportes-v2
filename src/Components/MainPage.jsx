@@ -22,8 +22,7 @@ function MainPage() {
         setIsDeporteDefined(null)
       }
 
-    console.log('isDeporteDefined main page', isDeporteDefined)
-    console.log('deporte main page', deporte)
+
     return (
         <div>
             { deporte === null && isDeporteDefined === null ?
@@ -34,7 +33,6 @@ function MainPage() {
             <VideoContainer />
             <News />
             <WebSiteDirection />
-            <SportsData deporte={deporte} />
             </div>
             : <div>
                             <Header backToMainPage={backToMainPage}/>

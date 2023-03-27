@@ -1,12 +1,12 @@
 .containerVideoContainer{
 display: flex;
 justify-content: center;
-height: 1100px;
+height: 1000px;
 align-items: center;
 }
 
 .Video{
     background-color: black;
     width: 2068px;
-    height: 909px;
+    height: 809px;
 }

@@ -112,7 +112,11 @@ li::marker{
     display: flex;
     justify-content: space-evenly;
 }
-
+.totalPointsGeneralTable{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
 .pointsGeneralTableParagraph{
     margin: 0px 80px;
 }

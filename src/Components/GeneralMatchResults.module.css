@@ -6,7 +6,7 @@
 
 .GeneralMatchResults{
     width: 460px;
-    height: 900px;
+    height: 700px;
     background-color: #0c153b;
     border-radius: 80px;
 }
@@ -25,5 +25,5 @@
 
 .generalMatchesScrollContent{
     overflow: auto;
-    height: 900px
+    height: 700px
 }
