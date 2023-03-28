@@ -4,7 +4,7 @@ justify-content: center;
 }
 
 .containerContentNews{
-    width: 2068px;
+    width: 93%;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -23,8 +23,9 @@ justify-content: center;
 }
 
 .TextContentContainerNews{
-    width: 70%;
+    width: 83%;
     margin-left: 60px;
+    height: 100%;
 }
 
 .TextContentTitleNews{
@@ -34,7 +35,7 @@ justify-content: center;
 
 .TextContentParagraphNews{
     font-size: 80px;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .lineaTitleNews{
