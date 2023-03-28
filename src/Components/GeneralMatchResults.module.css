@@ -6,7 +6,7 @@
 
 .GeneralMatchResults{
     width: 460px;
-    height: 700px;
+    height: 500px;
     background-color: #0c153b;
     border-radius: 80px;
 }
@@ -25,7 +25,7 @@
 
 .generalMatchesScrollContent{
     overflow: auto;
-    height: 700px
+    height: 500px
 }
 
 .ContainerImageLeague{
@@ -41,17 +41,19 @@
 }
 
 .ContainerImageLeague h2{
-font-size: 40px;
+font-size: 35px;
 color: white;
 }
 .ContainerSoccerGeneral{
     background-color: #0c153b;
     border-radius: 80px;
     padding: 20px;
+    width: 20%;
 }
 
 .ContainerBaloncestoGenerals{
     background-color: #0c153b;
     border-radius: 80px;
     padding: 20px;
+    width: 20%;
 }

@@ -38,6 +38,10 @@ function SportsData({ deporte }) {
                     <div className={styles.sportDataGeneralTableSize}>
                   <p className={styles.sportDataTitleParagraph}>Tabla General</p>
                   <div>
+                  <div className={styles.pointsGeneralTable}>
+                          <div>  <p className={styles.pointsGeneralTableParagraph}>pts </p></div> <div><p className={styles.pointsGeneralTableParagraph}>pts</p>{" "}</div>
+                          <div> <p className={styles.pointsGeneralTableParagraph}>pts</p></div> 
+                          </div>
                   <ol className={styles.SportDataOrderedList}>
                     {league.sportGeneralTable.map((tableItem) => (
                       <li>
@@ -53,6 +57,7 @@ function SportsData({ deporte }) {
                           />{" "}
                           </div>
                           <div>
+                            
                           <div className={styles.pointsGeneralTable}>
                           <div>  <p className={styles.pointsGeneralTableParagraph}>{tableItem.pointOne} </p></div> <div><p className={styles.pointsGeneralTableParagraph}>{tableItem.pointTwo}</p>{" "}</div>
                           <div> <p className={styles.pointsGeneralTableParagraph}>{tableItem.pointThree}</p></div> 
