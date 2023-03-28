@@ -28,8 +28,10 @@ function SportsData({ deporte }) {
         <div className={styles.SportDataContainer} key={sport.id}>
           {sport.sportLeagues.map((league) => (
             <div className={styles.SportDataContent} key={league.id}>
+              <div className={styles.containerLeagueIcon}>
+              <img className={styles.leagueIcons} src={league.leagueIcon} alt="" />
               <p className={styles.SportDataLeagueTitle}>{league.league}</p>
-             
+              </div>
 
               <div className={styles.SportDataLeagueContainer}>
                 <div className={styles.sportDataGeneralTableContent}>
@@ -52,8 +54,8 @@ function SportsData({ deporte }) {
                           </div>
                           <div>
                           <div className={styles.pointsGeneralTable}>
-                            <p className={styles.pointsGeneralTableParagraph}>{tableItem.pointOne} </p> <p className={styles.pointsGeneralTableParagraph}>{tableItem.pointTwo}</p>{" "}
-                            <p className={styles.pointsGeneralTableParagraph}>{tableItem.pointThree}</p>
+                          <div>  <p className={styles.pointsGeneralTableParagraph}>{tableItem.pointOne} </p></div> <div><p className={styles.pointsGeneralTableParagraph}>{tableItem.pointTwo}</p>{" "}</div>
+                          <div> <p className={styles.pointsGeneralTableParagraph}>{tableItem.pointThree}</p></div> 
                           </div>{" "}
                           </div>
                          <div className={styles.totalPointsGeneralTable}> {tableItem.totalPoints}</div>

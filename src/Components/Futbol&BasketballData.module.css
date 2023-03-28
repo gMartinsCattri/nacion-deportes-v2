@@ -120,3 +120,20 @@ li::marker{
 .pointsGeneralTableParagraph{
     margin: 0px 80px;
 }
+
+.containerLeagueIcon{
+    display: flex;
+    margin: 40px;
+    border-radius: 45px;
+    background: #303856;
+}
+
+.containerLeagueIcon p{
+    margin-left: 100px;
+}
+
+.leagueIcons{
+    width: 150px;
+    height: 150px;
+    margin-left: 120px;
+}

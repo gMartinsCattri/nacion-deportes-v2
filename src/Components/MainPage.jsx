@@ -21,6 +21,7 @@ function MainPage() {
     setIsDeporteDefined(null);
   }
 
+
   return (
     <div>
       {deporte === null && isDeporteDefined === null ? (
