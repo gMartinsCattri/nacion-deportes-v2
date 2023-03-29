@@ -124,3 +124,15 @@
 
 
 teamIcon  pointOne  pointTwo  pointThree   totalPoints
+
+
+
+      pts   pts   pts   totalpts
+logo  11     9     12     323
+logo  23    -9    -15     123
+
+
+faca uma table para mim com o seguinte dado e itentacao. 
+      pts   pts   pts   totalpts
+logo  11     9     12     323
+logo  23    -9    -15     123

@@ -39,6 +39,10 @@
     padding-bottom: 30px;
 }
 
+.SportDataContent{
+    margin-bottom: 120px;
+}
+
 .sportDataResult p{
     font-size: 110px;
     font-weight: bold;
@@ -106,25 +110,47 @@ li::marker{
 }
 .pointsGeneralTable{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
+    border-bottom: 1px solid;
 }
+
+.pointsTable{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pointsTeamTable {
+  display: flex;
+  justify-content: flex-end;
+  width: 70px; /* Largura fixa para os pontos */
+}
+
 
 .pointsGeneralTableContainer{
     display: flex;
     justify-content: space-evenly;
+   
+   
 }
 .totalPointsGeneralTable{
     display: flex;
     justify-content: flex-end;
-    width: 100%;
+    width: 270px;
 }
 .pointsGeneralTableParagraph{
-    margin: 0px 80px;
+    margin: 0px;
+    font-size: 100px;
+}
+
+.pointsTableParagraph{
+    margin: 0px;
+    font-size: 40px;
+    text-align: center;
 }
 
 .containerLeagueIcon{
     display: flex;
-    margin: 40px;
+    margin: 40px 40px 120px 40px;
     border-radius: 45px;
     background: #303856;
 }
@@ -137,4 +163,8 @@ li::marker{
     width: 150px;
     height: 150px;
     margin-left: 120px;
+}
+
+.pointsContainerParagraph{
+    width: 200px;
 }
